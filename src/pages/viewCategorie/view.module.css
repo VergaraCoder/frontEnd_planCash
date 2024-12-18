@@ -1,0 +1,467 @@
+input {
+    border: none;
+    outline: none;
+}
+
+span{
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+button:focus{
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.containerGeneral{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.containerStadis{
+    width: 80%;
+    height: 48vh;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+
+.containerGeneral2{
+    width: 100%;
+    height: 20vh;
+}
+
+
+.formToUpdatedData{
+    width: 50vw;
+    height: 80vh;
+    background-color: #48e;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+
+.buttonViewMore{
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: rgb(43, 31, 31);
+    color: white;
+}
+
+
+.buttonBuy{
+    width:15%;
+    height:35vh;
+    border-radius: 10px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonBuy p{
+    font-size: 100%;
+
+}
+
+label{
+    width: 70%;
+    height: 10%;
+}
+
+.inputForm{
+    width: 100%;
+    height: 90%;
+    border-radius: 4px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 5px solid white;
+}
+
+.inputForm:hover{
+    border:3px solid  rgb(183, 192, 204);
+}
+
+
+.buttonToKeepData{
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    height: 10%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+
+.buttonToKeepData:focus{
+    background-color: #48e;
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+
+
+.containerTitles{
+    width: 100%;
+    height: 110%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.containerBudGetValue{
+    display:flex;
+    justify-content:space-around;
+    font-size: 20px;
+    width: 50%;
+}
+
+.buttonViewAllItems{
+    transition: .5s;
+    width: 20%;
+    height: 50%;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background-color: gray;
+}
+
+
+h2{
+    font-size: 40px;
+}
+
+
+.buttonViewAllItems:hover{
+    transition: .5s;
+    background-color: #48e;
+}
+
+.return{
+    position: absolute;
+}
+
+
+
+.return2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+
+.return:hover{
+    background-color: red;
+}
+
+.delete{
+    width:40%;
+    height:40%;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+
+.add{
+    border-radius: 10px;
+
+    background-color: #48e;
+    width:40%;
+    height: 40%;
+    font-size: 15px;
+    border: none;
+    color: white;
+    outline: none;
+    border:.1px solid rgb(255, 255, 255);
+    padding: 3px;
+}
+
+.add:hover{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border:3px solid black;
+}
+
+.delete:hover{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border:3px solid black;
+}
+
+
+.containerExpenseRecords{
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 10px 15px;
+    position: absolute;
+    top: 58%;
+    right: 10%;
+    gap: 20px;
+    z-index: 2;
+}
+
+
+
+.containerModal{
+    position:absolute;
+    width: 50%;
+    height: 70%;
+    z-index: 300;
+    top: 15%;
+    left:23%;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+
+.containerModalCancel{
+   display: none;
+}
+
+.inputNormla{
+
+}
+
+
+
+.formModal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+.containerRenderBuys{
+    width: 100%;
+    padding: 10px;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -5vh;
+    position: absolute;
+    top: 70%;
+    background-color: #fff;
+}
+
+
+.titleBuy{
+    width:100%;
+    text-align:initial;
+    padding-left:10%;
+}
+
+
+
+@media (min-width:1050px) {
+    
+.delete{
+    width:30%;
+    height:40%;
+}
+
+
+.add{
+    width:30%;
+    height:40%;
+}
+
+
+
+
+.formToUpdatedData{
+    width: 50vw;
+    height: 80vh;
+    background-color: #48e;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+}
+
+
+
+
+@media (max-width:770px){
+
+
+    .buttonViewAllItems{
+        transition: .5s;
+        width: 50%;
+        height: 30%;
+        margin-top: 10px;
+        border:none;
+        outline: none;
+        border-radius: 4px;
+        background-color: gray;
+    }
+
+    .containerBudGetValue{
+        display:flex;
+        justify-content:space-around;
+        font-size: 12px;
+        width: 50%;
+    }
+
+
+    .buttonBuy{
+        width:30%;
+        height:30vh;
+        padding: 10px;
+        border-radius: 10px;
+        border:2px solid black;
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttonBuy p{
+        font-size: 80%;
+    
+    }
+
+    .titleBuy{
+        width:100%;
+        font-size: 22px;
+        text-align:initial;
+        padding-left:10%;
+    }
+
+    .delete{
+        width:30%;
+        font-size: 10px;
+        height:40%;
+    }
+    
+    
+    .add{
+        font-size: 10px;
+        width:30%;
+        height:40%;
+    }
+
+    
+    .containerExpenseRecords{
+        width: 50%;
+        height: 15%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 10px 15px;
+        position: absolute;
+        top: 56%;
+        right: 10%;
+        gap: 20px;
+        z-index: 2;
+    }
+}
+
+
+
+@media (max-width:630px){
+
+    
+    
+
+.containerModal{
+    position:absolute;
+    width: 70%;
+    height: 70%;
+    z-index: 300;
+    top: 15%;
+    left:13%;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+
+.formToUpdatedData{
+    width: 70vw;
+    height: 60vh;
+    background-color: #48e;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 100;
+}
+   
+}

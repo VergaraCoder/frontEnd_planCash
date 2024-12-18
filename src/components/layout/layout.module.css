@@ -1,0 +1,29 @@
+
+.father{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+.header{
+    background-color: rgb(92, 94, 94);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    color: white;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

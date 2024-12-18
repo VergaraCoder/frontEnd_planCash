@@ -1,0 +1,135 @@
+.main{
+    width: 100%;
+    height:70vh ;
+    background-color:#48e ;
+}
+
+
+.containerTitle{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(81, 105, 141) ;
+
+}
+
+.title{
+    font-size: 20px;
+}
+
+
+
+.containerText{
+    width: 100%;
+    height: 90%;
+    background-color:rgba(68, 136, 238, 0.742) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.form{
+    width: 100%;
+    height: 120%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.text{
+    font-size: 14px;
+}
+
+.link{
+    color:white
+}
+
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.936);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    /* background-repeat: no-repeat;
+    object-fit: contain; */
+}
+
+
+.container2{
+    display: flex;
+    width: 40%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../assets/vertical-shot-mountains-near-sea-cloudy-sky-cabo-penas-asturias-spain.jpg");
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+
+.input{
+    font-size: 15px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding-right: '40px';
+    overflow: hidden;
+}
+
+
+
+/* 
+.input:focus{
+    outline: none;
+    border: 0;
+} */
+
+
+.button:focus{
+    border-bottom: none;
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button{
+    width: 80%;
+    height: 15%;
+    border-bottom: none;
+    outline: none;
+    border: 0;
+    border-radius: 7px;
+}
+
+.register{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    background-color: rgba(68, 136, 238, 0.733);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.error{
+    font-size: 10px;
+}

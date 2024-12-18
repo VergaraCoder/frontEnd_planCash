@@ -1,0 +1,268 @@
+
+.containerGeneral{
+    padding-top: 3%;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.884);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.return{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: black;
+    padding: 10px;
+}
+
+
+.containerGeneral2{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.containerGeneral3{
+    transition: .3s;
+    position:absolute;
+    opacity: 100%;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.containerBudget{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleBudget{
+    position: relative;
+}
+
+.addAmount{
+    position: absolute;
+    top: 10%;
+    right: -20%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 25vh;
+}
+
+.addAmount button{
+    background-color: #48e;
+    border-radius: 5px;
+    width: 100%;
+    height: 5vh;
+}
+
+
+
+.containerCategories{
+    width: 95%;
+    height: max-content;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.categorie{
+    width:30%;
+    height: 12vh;
+    background-color: #48e;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorie:focus{
+    outline: none;
+}
+
+
+.createCategorieButton{
+    width: 40vw;
+    border: none;
+    outline: none;
+    height: 5vh;
+    background-color: rgba(68, 136, 238, 0.76);
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.createCategorieButton:hover{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.createCategorieButton:focus{
+    border: none;
+    outline: none;
+}
+
+.showButtonEstadistic{
+    width: max-content;
+    height: 15%;
+    border: none;
+    outline: none;
+    font-size: 50%;
+}
+
+
+.showButtonEstadistic:focus{
+    border: none;
+    outline: none;   
+}
+
+.inputAddAmount{
+    display: none;
+}
+
+
+
+.inputAddAmountVisible:nth-child(2){
+    width: 300%;
+    height: 60%;
+        display: flex;
+        color: rgb(0, 0, 0);
+        border: 1px solid black;
+        font-size: 20px;
+        border-radius: 10px 10px 0px 0px; 
+}
+
+.inputAddAmountVisible:nth-child(3){
+    width: 300%;
+    height: 20%;
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.856);
+        display: flex;
+        color: white;
+}
+
+.inputAddAmountVisible:nth-child(3):hover{
+    width: 300%;
+    height: 20%;
+    cursor: pointer;
+    background-color: green;
+        display: flex;
+        color: white;
+}
+
+.inputAddAmountVisible:nth-child(4){
+    cursor: pointer;
+    color: white;
+    width: 300%;
+    height: 20%;
+    background-color: rgba(255, 30, 0, 0.836);
+            display: flex;
+        border-radius: 0px 0px 10px 10px; 
+}
+
+.inputAddAmountVisible:nth-child(4):hover{
+    cursor: pointer;
+    color: white;
+    width: 300%;
+    height: 20%;
+    background-color: rgb(255, 30, 0);
+            display: flex;
+}
+
+
+
+.containerModal{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    right: 20%;
+    top: 16%;
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    text-align: center;
+}
+
+.containerModalCancel{
+    display: none;
+}
+
+
+.modalForm{
+    width: 100%;
+    height:85%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+
+.input{
+    width: 100%;
+    height: 20%;
+}
+
+
+
+.inputDate{
+    width: 95%;
+    height: 70%;
+    border: none;
+}
+
+.inputDate:focus{
+   outline: none;
+    border: none;
+}
+
+.containerActionsButtons{
+    width: 100%;
+    height: 20%;
+    background-color: #48e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.buttonActions{
+    width: 45%;
+    height: 60%;
+    border:none;
+    border-radius: 5px;
+}
+
+
+
+

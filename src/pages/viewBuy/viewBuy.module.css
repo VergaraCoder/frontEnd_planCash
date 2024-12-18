@@ -1,0 +1,59 @@
+
+.containerGeneral{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+    padding: 10px;
+}
+
+.delete{
+    outline: none;
+    border:none;
+    border-radius: 8px;
+    padding: 7px;
+    background-color: red;
+}
+
+.keep{
+    background-color: #48e;
+    outline: none;
+    border: none;
+    border-radius:6px ;
+    padding: 10px;
+    color:white;
+}
+
+.casilla{
+    width: 90%;
+    border-top: none;
+    border-bottom: 2px solid #48e;
+    border-left: none;
+    border-right: none;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+.casilla:focus{
+    outline: none;
+    border-top: none;
+    border-bottom: 2px solid #48e;
+    border-left: none;
+    border-right: none;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 10px;
+}

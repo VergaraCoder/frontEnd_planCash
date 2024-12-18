@@ -1,0 +1,12 @@
+
+.input{
+  width: 100px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} 
+
+

@@ -39,12 +39,17 @@ input:focus{
 
 .containerStadis{
     width: 80%;
-    height: 48vh;
-    align-self: center;
+    height: 50vh;
     justify-self: center;
     display: flex;
     justify-content: center;
-    margin-top: -25px;
+    position: relative;
+    z-index: 200;
+    padding: 20px;
+}
+
+.containerStadis::after{
+    background-color: blue;
 }
 
 
@@ -59,6 +64,7 @@ input:focus{
     height: 80vh;
     background-color: #48e;
     position: absolute;
+    z-index: 2000;
     top: 10%;
     left: 23%;
     display: flex;
@@ -66,7 +72,6 @@ input:focus{
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    z-index: 100;
 }
 
 
@@ -86,7 +91,8 @@ input:focus{
     border:2px solid black;
     display: flex;
     flex-direction: column;
-    gap: 8%;
+    gap: 2%;
+    padding: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -140,22 +146,24 @@ label{
 
 .containerTitles{
     width: 100%;
-    height: 110%;
-    background-color: rgb(0, 0, 0);
+    height: 130%;
+    background-color: rgba(68, 136, 238, 0.692);
     display: flex;
     color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
-
 }
 
 .containerBudGetValue{
     display:flex;
     justify-content:space-around;
-    font-size: 20px;
     width: 50%;
+}
+
+.containerBudGetValue p{
+    font-size: 17px;
 }
 
 .buttonViewAllItems{
@@ -167,6 +175,9 @@ label{
     outline: none;
     border-radius: 4px;
     background-color: gray;
+    position: relative;
+    z-index: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -189,7 +200,7 @@ h2{
 .return2{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,13 +209,13 @@ h2{
     padding: 10px;
 }
 
-
-
 .return:hover{
     background-color: red;
 }
 
 .delete{
+    position: relative;
+    z-index: 400;
     width:40%;
     height:40%;
     font-size: 15px;
@@ -218,7 +229,8 @@ h2{
 
 .add{
     border-radius: 10px;
-
+    position: relative;
+    z-index: 400;
     background-color: #48e;
     width:40%;
     height: 40%;
@@ -256,7 +268,7 @@ h2{
     top: 58%;
     right: 10%;
     gap: 20px;
-    z-index: 2;
+    z-index: 500;
 }
 
 
@@ -265,7 +277,7 @@ h2{
     position:absolute;
     width: 50%;
     height: 70%;
-    z-index: 300;
+    z-index: 1500;
     top: 15%;
     left:23%;
     background-color: #f0f0f0;
@@ -277,11 +289,6 @@ h2{
 .containerModalCancel{
    display: none;
 }
-
-.inputNormla{
-
-}
-
 
 
 .formModal{
@@ -338,6 +345,7 @@ h2{
     height: 80vh;
     background-color: #48e;
     position: absolute;
+    z-index: 2000;
     top: 10%;
     left: 23%;
     display: flex;
@@ -345,7 +353,6 @@ h2{
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    z-index: 100;
 }
 
 }
@@ -454,6 +461,7 @@ h2{
     height: 60vh;
     background-color: #48e;
     position: absolute;
+    z-index: 2000;
     top: 10%;
     left: 13%;
     display: flex;
@@ -461,7 +469,6 @@ h2{
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    z-index: 100;
 }
    
 }

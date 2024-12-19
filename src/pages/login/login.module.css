@@ -33,7 +33,7 @@
 }
 
 .form{
-    width: 100%;
+    width: 60%;
     height: 120%;
     display: flex;
     align-items: center;
@@ -102,22 +102,26 @@
 } */
 
 
-.button:focus{
+.button:hover{
     border-bottom: none;
     outline: none;
     border: 0;
     border-radius: 15px;
     background-color: white;
     cursor: pointer;
+    color:#48e;
 }
 
 .button{
-    width: 80%;
-    height: 15%;
+    width: 60%;
+    height: 17%;
     border-bottom: none;
     outline: none;
     border: 0;
-    border-radius: 7px;
+    border-radius: 15px;
+    background-color: #48e;
+    border: 3px solid white;
+    color: white;
 }
 
 .register{

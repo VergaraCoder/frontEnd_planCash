@@ -26,9 +26,9 @@ export const Layout = ({children}:Props) =>{
             {showLayout && (
                 <div className={style.father}>
                     <header className={style.header}>
-                        <h1>PlanCash</h1>
-                        <button onClick={handleLogOut}>Log out</button>
+                        <h1>Mejora tu control financiero</h1>
                     </header>
+                   
                     <Outlet />
                     {children}
                     <footer className={style.footer}>

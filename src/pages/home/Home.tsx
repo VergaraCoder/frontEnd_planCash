@@ -169,7 +169,6 @@ export const Home = () =>{
                return( 
                     <button className={style.categorie} onClick={()=>viewCategory({idCategory:item.id, ...item,dateStart:dateStart,dateEnd:dateEnd})} >
                         {item.name}
-                        <button className={style.showButtonEstadistic}>Ver Estadistica</button>
                     </button>
                 )
             });

@@ -304,7 +304,7 @@ export const Category = () => {
                     </NavLink>
 
 
-                    <NavLink className={style.return2} onClick={handleLogOut} to="/pages/home"> 
+                    <NavLink className={style.return2} onClick={handleLogOut} to="/pages/login"> 
                             <FontAwesomeIcon icon={faDoorOpen} size="2x" color="white" to={"/pages/login"}/>
                             Salir  
                         </NavLink>
@@ -314,7 +314,7 @@ export const Category = () => {
                         <h2>
                           {data.name.toUpperCase()}</h2>
     <div className={style.containerBudGetValue}>
-                         <p>
+                         <p >
                              Destinado inicialmente :  ${category.amount} </p> 
 
                             <p>Disponible Actualmente : ${available}</p>

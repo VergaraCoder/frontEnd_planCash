@@ -7,14 +7,18 @@ import { Category } from "../pages/viewCategorie/ViewCategorie";
 import { ViewBuy } from "../pages/viewBuy/ViewBuy";
 import { ErrorScreen } from "../pages/screenError/error";
 import BarChart from "../components/estadistic";
+import { PrincipalScreen } from "../pages/main/FirstScreen";
 
 
 export const Router= createBrowserRouter([
-    {
+  {
         path: "/pages",
         Component: Layout,
         ErrorBoundary:ErrorScreen,
         children: [
+          {
+            path:"main", Component:PrincipalScreen
+          },
           {path: "register",Component: Register},
           {path: "login",Component: Login},
           {path: "home",Component: Home},
@@ -24,11 +28,7 @@ export const Router= createBrowserRouter([
           {
             path:"buy", Component:ViewBuy
           },
-          {
-            path:"esta", Component:BarChart
-          }
-      ]
-
-          
+         
+      ],
       },
 ]);

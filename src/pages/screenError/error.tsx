@@ -7,7 +7,7 @@ export const ErrorScreen = () => {
     const navegation=useNavigate();
 
     useEffect(()=>{
-        navegation("/pages/register");
+        navegation("/pages/main");
     });
 
     return(

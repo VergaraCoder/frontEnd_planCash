@@ -1,6 +1,6 @@
 import { Outlet, useNavigate } from 'react-router';
 import style from './layout.module.css';
-import { createContext, ReactNode, useContext, useState } from 'react';
+import { createContext, ReactNode, useContext, useEffect, useState } from 'react';
 import { Button } from '../button';
 import { updatedDataWithBackEnd } from '../../scripts/layout/logOut';
 
@@ -16,10 +16,9 @@ export const Layout = ({children}:Props) =>{
 
     const [showLayout, setShowLayout] = useState(true);
 
-    const handleLogOut = async () =>{
-        await updatedDataWithBackEnd();
-        navigate("/pages/register");
-    }
+    useEffect(()=>{
+        navigate("/pages/main");
+    },[]);
 
     return (
         <context.Provider value={{ showLayout, setShowLayout }}>

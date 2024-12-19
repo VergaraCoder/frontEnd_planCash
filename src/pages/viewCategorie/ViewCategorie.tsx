@@ -15,7 +15,7 @@ import { SaveBuysIndexDb } from "../../scripts/categories/saveBuysIndexDb";
 import PieChart from "../../components/estadistic";
 import { setStatistics } from "../../scripts/categories/setStatistics";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faCoffee, faDoorOpen } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faDoorOpen } from "@fortawesome/free-solid-svg-icons";
 import { useLayout } from "../../components/layout/layout";
 import { updatedDataWithBackEnd } from "../../scripts/layout/logOut";
 
